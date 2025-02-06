@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(66, 94, 95);
+}
+.heading{
+    background-color: rgb(1, 43, 44);
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    color: white;
+    height: 120px;
+    width: 100%;
+    padding-top: 25px;
+}
+.nev ul{
+    height: 200vh;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    color: white;
+    background-color: rgb(2, 44, 46);
+}
+.nev ul li{
+    text-align: center;
+    padding: 8px 16px;
+    border: 1px solid white;
+    list-style: none;
+    text-decoration: none;
+}
+.nev ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nev ul li:hover{
+    background-color: black;
+    color: white;
+}
+.card{
+    background-color: white;
+    margin: auto;
+    transition: 0.4s;
+    width: 29%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+ .price{
+    color: gray;
+    font-size: 25px;
+    text-align: center;
+ }
+ h1{text-align: center;}
+ .text{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+ }
+ .card button{
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 16px;
+ }
+ .card button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    cursor: pointer;
+ }
+ .card:hover{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 16px 18px 0 rgba(0, 0, 0, 0.3) ;
+ }
